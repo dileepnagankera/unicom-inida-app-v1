@@ -1,14 +1,21 @@
 import {createBrowserRouter , RouterProvider} from "react-router-dom"
 import './App.css';
 import Body from "./Components/Body";
+import Conferences from "./Components/Conferences";
 
 
-const unicom=createBrowserRouter([
+const unicom = createBrowserRouter([
   {
-    path:"/",
-    element:<Body/>
-  }
-])
+    path: "/",
+    element: <Body />,
+    children: [
+      {
+        path: "conferences",
+        element:<Conferences/>
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
