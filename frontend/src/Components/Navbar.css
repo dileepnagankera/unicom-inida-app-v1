@@ -1,0 +1,16 @@
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.btn-seach{
+    background-color: #03ecfc;
+    border-radius: 10px;
+}
+
+.navbar-form input{
+    width: 300px;
+}
