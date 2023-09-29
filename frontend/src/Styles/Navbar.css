@@ -15,3 +15,15 @@
 .navbar-form input{
     width: 300px;
 }
+
+.conference-navbar {
+    background-color: #03ecfc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.conference-navbar ul {
+    margin-left: 160px;
+    color: white;
+    font-size: 20px;
+}
