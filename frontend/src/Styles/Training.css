@@ -1,0 +1,95 @@
+.Training{
+    background-color: #03f0fc;
+    color: white;
+    
+   
+}
+.Training h1 {
+ margin-left: 200px;
+ padding: 20px;
+}
+
+.training-par {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.training-box{
+    display: flex;
+    gap: 10px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.training-box1{
+    background-color: #b1b5b5;
+    width: 200px;
+    color: #0d9fd4;
+}
+.training-box2 {
+    background-color: #b1b5b5;
+    width: 200px;
+    color: #0d9fd4;
+}
+
+.training-icon{
+    display: flex;
+    background-color: #0d9fd4;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    gap: 60px;
+}
+
+.training-icon1{
+    display: flex;
+    gap: 20px;
+}
+.ffff{ 
+    padding: 20px;
+}
+
+.training-icon2{
+    margin-top: 20px;
+    width: 200px;
+}
+.ddddd{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: red;
+    margin-top: 40px;
+}
+
+.training-adds {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+     margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.sad{
+    background-color: #b1b5b5;
+    width: 200px;
+    color: white;
+    padding: 20px;
+}
+
+.sad1 {
+    background-color: #b1b5b5;
+    width: 200px;
+    color: white;
+    padding: 20px;
+}
+
+.sad2 {
+    background-color: #b1b5b5;
+    width: 200px;
+    color: white;
+    padding: 20px;
+}

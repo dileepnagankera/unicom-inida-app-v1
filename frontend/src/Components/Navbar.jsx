@@ -60,6 +60,7 @@ const Navbar = () => {
       <nav className="conference-navbar">
         <ul>
           <Link to="/conferences">EVENTS</Link>
+          <Link to="/training">TRANING</Link>
         </ul>
       </nav>
     </section>
