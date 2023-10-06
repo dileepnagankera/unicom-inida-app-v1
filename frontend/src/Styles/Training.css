@@ -73,33 +73,20 @@
     text-align: center;
 }
 
-.sad{
-    background-color: #b1b5b5;
-    width: 200px;
-    color: white;
-    padding: 20px;
-}
 
-.sad1 {
-    background-color: #b1b5b5;
-    width: 200px;
-    color: white;
-    padding: 20px;
-}
-
-.sad2 {
-    background-color: #b1b5b5;
-    width: 200px;
-    color: white;
-    padding: 20px;
-}
 
 .table thead tr th {
     color: red;
 }
 
 .course tr td{
-    background-color: #919492;
+    background-color: #fffdfc;
+    color: black;
+    padding: 30px;
+}
+.box-1{
+    background-color: #e8e7e6;
+    padding: 20px;
+    text-align: center;
     color: black;
 }
-

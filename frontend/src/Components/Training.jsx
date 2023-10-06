@@ -96,17 +96,27 @@ const Training = () => {
               <th>Delivery format</th>
               <th>Learn More</th>
             </tr>
-          </thead><br></br>
+          </thead>
+          <br></br>
           <tbody className="course">
-                {trainingList.map((item) => (
-                 <tr>
-                  <td>{item.courseTitle}</td>
-                  <td>{item.category}</td>
-                  <td>{item.deliveryFormat}</td>
-                  <td>{item.learnMore}</td>
-                </tr>
-              ))}
-           
+            {trainingList.map((item) => (
+              <tr>
+                <td>
+                  <div className="box-1">{item.courseTitle}</div><hr></hr>
+                </td>
+                <td>
+                  <div className="box-1">{item.category}</div>
+                </td>
+                <td>
+                  <div className="box-1">{item.deliveryFormat}</div>
+                </td>
+                <td>
+                  <div className="box-1">
+                    <a href="#">{item.learnMore}</a>
+                  </div>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
