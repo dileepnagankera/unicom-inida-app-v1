@@ -40,59 +40,13 @@
     padding: 5px;
 }
 
-.card-item1 {
-    background-color: white;
-    padding: 5px;
-}
 
-.card-item2 {
-    background-color: white;
-    padding: 5px;
-}
 
-.card-confarence {
-    background-color: #535454;
-     margin-left: 200px;
-    margin-right: 200px;
-}
-
-.past{
-     display:  flex;
-    gap: 20px;
-    background-color: #535454;
-    color: white;
-    margin-top: 30px;
+.card-container1 {
     margin-left: 200px;
     margin-right: 200px;
-    padding: 5px;
-}
-
-.first-past {
-    display: flex;
-    gap: 20px;
-    background-color: #535454;
-    padding: 20px;
-}
-
-.past-conference {
-    margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
+    margin-top: 20px;
 }
 
 
-.past-item {
-    background-color: white;
-    padding: 10px;
-}
 
-.past-item1 {
-    background-color: white;
-    padding: 10px;
-}
-
-.past-item2 {
-    background-color: white;
-    padding: 10px;
-}

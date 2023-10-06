@@ -93,3 +93,13 @@
     color: white;
     padding: 20px;
 }
+
+.table thead tr th {
+    color: red;
+}
+
+.course tr td{
+    background-color: #919492;
+    color: black;
+}
+

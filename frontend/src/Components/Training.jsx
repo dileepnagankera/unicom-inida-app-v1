@@ -1,7 +1,57 @@
+
 import "../Styles/Training.css";
 import { FaSearchDollar } from "react-icons/fa";
 
 const Training = () => {
+
+  const trainingList = [
+    {
+      courseTitle:
+        "Certificate in Sentiment Analysis and Alternative Data for Finance (CSAF)",
+      category: "Quantitative Finance",
+      deliveryFormat: "online physical",
+      learnMore: "More info & dates",
+    },
+    {
+      courseTitle: "Certified Professional Agile Testing",
+      category: "Agile",
+      deliveryFormat: "online physical",
+      learnMore: "More info & dates",
+    },
+    {
+      courseTitle: "Certified Scrum Master",
+      category: "Agile",
+      deliveryFormat: "online physical",
+      learnMore: "More info & dates",
+    },
+    {
+      courseTitle: "Certified Scrum Product Owner Certification",
+      category: "Agile",
+      deliveryFormat: "online physical",
+      learnMore: "More info & dates",
+    },
+    {
+      courseTitle: "Cloud Computing with AWS Level 2",
+      category: "Could",
+      deliveryFormat: "online physical",
+      learnMore: "More info & dates",
+    },
+    {
+      courseTitle: "Deep Learning Recent Advances and Applications",
+      category: "Al & Ml",
+      deliveryFormat: "online physical",
+      learnMore: "More info & dates",
+    },
+    {
+      courseTitle: "DevOps Technical Training",
+      category: "DevOps",
+      deliveryFormat: "online physical",
+      learnMore: "More info & dates",
+    },
+  ];
+
+ 
+
   return (
     <section>
       <div className="Training">
@@ -37,21 +87,28 @@ const Training = () => {
           <input type="name"></input>
         </div>
       </div>
-      <div className="ddddd">
-        <h1>Course title</h1>
-        <h1>Category</h1>
-        <h1>Delivery format</h1>
-        <h1>Learn more</h1>
-      </div>
-      <div className="training-adds">
-        <p className="sad">Certificate</p>
-        <p className="sad1">Quantitative Finance</p>
-        <div className="dddddddd">
-          <img src="./Images/image-1.png" alt="" />
-          <img src="./Images/image-1.png" alt="" />
-          <img src="./Images/image-1.png" alt="" />
-        </div>
-        <p className="sad2">More info & dates</p>
+      <div className="container">
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Course Title</th>
+              <th>Category</th>
+              <th>Delivery format</th>
+              <th>Learn More</th>
+            </tr>
+          </thead><br></br>
+          <tbody className="course">
+                {trainingList.map((item) => (
+                 <tr>
+                  <td>{item.courseTitle}</td>
+                  <td>{item.category}</td>
+                  <td>{item.deliveryFormat}</td>
+                  <td>{item.learnMore}</td>
+                </tr>
+              ))}
+           
+          </tbody>
+        </table>
       </div>
     </section>
   );
